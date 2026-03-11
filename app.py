@@ -19,7 +19,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def home():
-    return jsonify({"message": "it works! (Flask version)"})
+    return "<p>Hello, World!</p>"
 
 
 # ~ @app.route("/predict", methods=["POST"])
